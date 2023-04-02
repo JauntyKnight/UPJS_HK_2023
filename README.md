@@ -16,3 +16,4 @@ The solution is based on the unsupervised anomaly detection with RNN autoencoder
 The model is implemented in tensorflow 2.
 
 ![image info](Model_scheme.jpg)
+![image info](LSTM.png)
