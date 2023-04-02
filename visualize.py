@@ -29,7 +29,7 @@ slider_position = Slider(axis_position,
 # slider is in use
 def update(val):
     pos = slider_position.val
-    Axis.axis([pos, pos+10, -1, 1])
+    Axis.axis([pos, pos+1000, 0, 0.3])
     Plot.canvas.draw_idle()
  
 # update function called using on_changed() function
